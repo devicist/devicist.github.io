@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7559567954f1c571527f9515572bec8f",
+    "revision": "3b52bb87ff029ba66d868cec41664e6d",
     "url": "/index.html"
   },
   {
-    "revision": "5560f5576a2c22b6cc76",
+    "revision": "3d0897ff95785303f244",
     "url": "/static/css/2.cf8b0bfb.chunk.css"
   },
   {
-    "revision": "8105034524b2aaa9a7c2",
-    "url": "/static/css/main.d351a170.chunk.css"
+    "revision": "e66d03cf35680769479f",
+    "url": "/static/css/main.722dde36.chunk.css"
   },
   {
-    "revision": "5560f5576a2c22b6cc76",
-    "url": "/static/js/2.1fdbb327.chunk.js"
+    "revision": "3d0897ff95785303f244",
+    "url": "/static/js/2.122e47cd.chunk.js"
   },
   {
     "revision": "3a3eee750260ab555627e944270db51c",
-    "url": "/static/js/2.1fdbb327.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.122e47cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8105034524b2aaa9a7c2",
-    "url": "/static/js/main.2404bac2.chunk.js"
+    "revision": "e66d03cf35680769479f",
+    "url": "/static/js/main.14d2ab31.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -224,10 +224,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kiosk_unfinished.ac7a7207.jpg"
   },
   {
-    "revision": "ccfaace28df8481237674a1208e8a66e",
-    "url": "/static/media/logo.ccfaace2.svg"
-  },
-  {
     "revision": "82dd54d1d5adf7d1ad5392774428d781",
     "url": "/static/media/many_in_progress.82dd54d1.jpg"
   },
@@ -240,16 +236,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/more11.fcb1c0ab.jpg"
   },
   {
-    "revision": "d6bcd12c481b0759888e4c50435589d6",
-    "url": "/static/media/more3.d6bcd12c.jpg"
+    "revision": "f72eb48946db4c97a05ad069674013f1",
+    "url": "/static/media/more3.f72eb489.jpg"
   },
   {
     "revision": "1e525e9a425bcc486249d35b54eef8bc",
     "url": "/static/media/more4.1e525e9a.jpg"
   },
   {
-    "revision": "240cc241c6e45e82f3fcdda22f6bcb69",
-    "url": "/static/media/more5.240cc241.jpg"
+    "revision": "888818995d0df3f1d29934c54f8ada16",
+    "url": "/static/media/more5.88881899.jpg"
   },
   {
     "revision": "da18708b507804417331efc0f860e821",
