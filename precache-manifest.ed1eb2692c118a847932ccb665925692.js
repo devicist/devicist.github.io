@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e0d3b0ead8886c512a71368832cea8c",
+    "revision": "e394542f1b7bda5522ac0d69601ceac9",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.cf8b0bfb.chunk.css"
   },
   {
-    "revision": "79d585ab395168ea3eff",
+    "revision": "e8e198b50e9961f7148a",
     "url": "/static/css/main.722dde36.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.122e47cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79d585ab395168ea3eff",
-    "url": "/static/js/main.cc4fe76a.chunk.js"
+    "revision": "e8e198b50e9961f7148a",
+    "url": "/static/js/main.99c71cb8.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/concept-medium.793bb6df.jpg"
   },
   {
-    "revision": "d7b51fbef95032b3e0075993e774f4c5",
-    "url": "/static/media/cradled.d7b51fbe.jpg"
+    "revision": "b1157af88de817a981667cbcaf6dd153",
+    "url": "/static/media/cradled.b1157af8.jpg"
   },
   {
     "revision": "6122c0958499e89b1d930798d58f0b2c",
