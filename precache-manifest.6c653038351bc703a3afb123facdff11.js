@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b45984a055983b8082b79be80f21c4ad",
+    "revision": "3923ab08628badf2bb0bc23138aa4952",
     "url": "/index.html"
   },
   {
-    "revision": "c6d7608f9c49e4cf6b40",
+    "revision": "bbbc3598c701522f67f6",
     "url": "/static/css/2.cf8b0bfb.chunk.css"
   },
   {
-    "revision": "707866b499ce4a6b249a",
-    "url": "/static/css/main.be9e0551.chunk.css"
+    "revision": "159946e1bcb1aee6d86a",
+    "url": "/static/css/main.6c93f0bf.chunk.css"
   },
   {
-    "revision": "c6d7608f9c49e4cf6b40",
-    "url": "/static/js/2.0c25b51d.chunk.js"
+    "revision": "bbbc3598c701522f67f6",
+    "url": "/static/js/2.0c35a294.chunk.js"
   },
   {
     "revision": "3a3eee750260ab555627e944270db51c",
-    "url": "/static/js/2.0c25b51d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0c35a294.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "707866b499ce4a6b249a",
-    "url": "/static/js/main.19266f0a.chunk.js"
+    "revision": "159946e1bcb1aee6d86a",
+    "url": "/static/js/main.1bf7de95.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -140,6 +140,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/blanket.8ae1a57f.mp4"
   },
   {
+    "revision": "e42f661a48a91e0b80c310d4ff938f44",
+    "url": "/static/media/blanket.e42f661a.jpg"
+  },
+  {
     "revision": "7a6aacee3caee0dcf710377146bd058c",
     "url": "/static/media/brain2.7a6aacee.JPG"
   },
@@ -176,24 +180,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/deployImage1_1.6122c095.jpg"
   },
   {
-    "revision": "d91c5e3f0e179f520fb6a31790ddd24b",
-    "url": "/static/media/deployImage2_2.d91c5e3f.jpg"
-  },
-  {
-    "revision": "c9ec5eba78cbb08db1b6319c995b17e5",
-    "url": "/static/media/deployImage3_3.c9ec5eba.jpg"
-  },
-  {
-    "revision": "b796c6c5cd7e6570c1253e9df8f41566",
-    "url": "/static/media/deployImage4_4.b796c6c5.jpg"
-  },
-  {
     "revision": "846786b7ed02f73d00643aa844e496d0",
     "url": "/static/media/emailIcon.846786b7.png"
   },
   {
     "revision": "a835e143fa8d54618a43c0ef8b113f9e",
     "url": "/static/media/emailSketch.a835e143.png"
+  },
+  {
+    "revision": "d86e51481693fd76ce1d908750f45b1f",
+    "url": "/static/media/flux-4.d86e5148.jpg"
+  },
+  {
+    "revision": "0f261287e4ba390be1bccd91fd5e43ee",
+    "url": "/static/media/flux-straight.0f261287.png"
   },
   {
     "revision": "b7d4cc4b0021479c40c2c87c011d469f",
