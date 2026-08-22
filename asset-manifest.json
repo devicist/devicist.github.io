@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c93f0bf.chunk.css",
-    "main.js": "/static/js/main.dd77b83e.chunk.js",
-    "main.js.map": "/static/js/main.dd77b83e.chunk.js.map",
+    "main.css": "/static/css/main.314722b2.chunk.css",
+    "main.js": "/static/js/main.dd96408f.chunk.js",
+    "main.js.map": "/static/js/main.dd96408f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
     "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
     "static/css/2.cf8b0bfb.chunk.css": "/static/css/2.cf8b0bfb.chunk.css",
-    "static/js/2.0c35a294.chunk.js": "/static/js/2.0c35a294.chunk.js",
-    "static/js/2.0c35a294.chunk.js.map": "/static/js/2.0c35a294.chunk.js.map",
+    "static/js/2.51ab93af.chunk.js": "/static/js/2.51ab93af.chunk.js",
+    "static/js/2.51ab93af.chunk.js.map": "/static/js/2.51ab93af.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ce48839b1da6ab11aec6c86a8845fa51.js": "/precache-manifest.ce48839b1da6ab11aec6c86a8845fa51.js",
+    "precache-manifest.7525200cb8cb78cd2e294646fc262641.js": "/precache-manifest.7525200cb8cb78cd2e294646fc262641.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.cf8b0bfb.chunk.css.map": "/static/css/2.cf8b0bfb.chunk.css.map",
-    "static/css/main.6c93f0bf.chunk.css.map": "/static/css/main.6c93f0bf.chunk.css.map",
-    "static/js/2.0c35a294.chunk.js.LICENSE.txt": "/static/js/2.0c35a294.chunk.js.LICENSE.txt",
+    "static/css/main.314722b2.chunk.css.map": "/static/css/main.314722b2.chunk.css.map",
+    "static/js/2.51ab93af.chunk.js.LICENSE.txt": "/static/js/2.51ab93af.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.87e14c82.jpg",
     "static/media/14b.png": "/static/media/14b.f4dace9d.png",
     "static/media/16.png": "/static/media/16.a3bf3e3b.png",
@@ -60,6 +60,7 @@
     "static/media/fluxOutline.png": "/static/media/fluxOutline.87822dc2.png",
     "static/media/gear_small.jpg": "/static/media/gear_small.826ac239.jpg",
     "static/media/headshot_cropped.jpg": "/static/media/headshot_cropped.46ecc111.jpg",
+    "static/media/icra-1-color.jpg": "/static/media/icra-1-color.1c43e373.jpg",
     "static/media/icra-1.jpg": "/static/media/icra-1.eced5676.jpg",
     "static/media/icra-10.jpg": "/static/media/icra-10.8f71af92.jpg",
     "static/media/icra-2.jpg": "/static/media/icra-2.94e8525e.jpg",
@@ -83,6 +84,7 @@
     "static/media/more5.jpg": "/static/media/more5.88881899.jpg",
     "static/media/more8.png": "/static/media/more8.da18708b.png",
     "static/media/more9.png": "/static/media/more9.bace2d51.png",
+    "static/media/pet_viz.png": "/static/media/pet_viz.c740542d.png",
     "static/media/prismGraphic.png": "/static/media/prismGraphic.dc130cb9.png",
     "static/media/prism_prototype.jpg": "/static/media/prism_prototype.a71e6415.jpg",
     "static/media/snowflake1.jpg": "/static/media/snowflake1.f44c42ac.jpg",
@@ -98,8 +100,8 @@
   "entrypoints": [
     "static/js/runtime-main.3374ac37.js",
     "static/css/2.cf8b0bfb.chunk.css",
-    "static/js/2.0c35a294.chunk.js",
-    "static/css/main.6c93f0bf.chunk.css",
-    "static/js/main.dd77b83e.chunk.js"
+    "static/js/2.51ab93af.chunk.js",
+    "static/css/main.314722b2.chunk.css",
+    "static/js/main.dd96408f.chunk.js"
   ]
 }
