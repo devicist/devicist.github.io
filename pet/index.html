@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="PET is a speculative robotic companion that senses touch and expresses feeling through movement. Winner of Best Art and Design at ICSR 2026." />
+    <link rel="canonical" href="https://devicist.com/pet/" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <title>PET — A Robot That Feels Touch | Devicist</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/pet.css" />
+
+    <!-- Analytics: no working GA property exists yet (Universal Analytics/react-ga
+         was sunset by Google in July 2023). Drop a GA4 gtag.js snippet here once
+         a fresh G-XXXXXXX measurement ID is available. -->
+  </head>
+
+  <body class="has-animations">
+    <script>
+  // If this page was landed on directly (no prior history entry), pad the
+  // history stack so the browser back button goes to the homepage's "work"
+  // section instead of leaving the site entirely.
+  if (window.history.length <= 1) {
+    window.history.replaceState({}, "", "/#work");
+    window.history.pushState({}, "", window.location.pathname);
+  }
+</script>
+
+<header class="site-header reveal-from-bottom">
+  <div class="container">
+    <div class="site-header-inner">
+      <div class="brand">
+  <a href="/" class="brand-link">
+    <svg
+      class="brand-cube"
+      viewBox="88 0 104 118"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <g fill="none" stroke="currentColor" stroke-width="7" stroke-miterlimit="10">
+        <polyline points="187.41 66.22 187.5 85.8 170.59 95.66" />
+        <polyline points="157.21 103.47 140.3 113.33 123.31 103.62" />
+        <polyline points="109.85 95.93 92.86 86.22 92.77 66.64" />
+        <polyline points="92.7 51.15 92.61 31.57 109.52 21.71" />
+        <polyline points="122.91 13.9 139.81 4.04 156.81 13.75" />
+        <polyline points="170.26 21.44 187.26 31.15 187.35 50.73" />
+        <line x1="140.3" y1="113.33" x2="140.21" y2="93.76" />
+        <polyline points="140.14 78.26 140.06 58.69 123.06 48.97" />
+        <polyline points="109.61 41.29 92.61 31.57 109.61 41.29" />
+        <polyline points="123.06 48.97 140.06 58.69 156.96 48.82" />
+        <line x1="170.35" y1="41.01" x2="187.26" y2="31.15" />
+      </g>
+    </svg>
+    <h4>Devicist</h4>
+  </a>
+</div>
+
+      <button id="nav-toggle" class="header-nav-toggle">
+        <span class="screen-reader">Menu</span>
+        <span class="hamburger">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <nav id="site-nav" class="header-nav">
+        <div class="header-nav-inner">
+          <ul class="list-reset text-xs header-nav-right">
+            <li><a href="/#featured" class="nav-link">Featured</a></li>
+            <li><a href="/#commercial" class="nav-link">Commercial</a></li>
+            <li><a href="/#about" class="nav-link">About</a></li>
+          </ul>
+          <ul class="list-reset header-nav-right">
+            <li>
+              <a href="/#contact" class="button button-primary button-wide-mobile button-sm nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="site-content">
+<section class="pet-page section">
+  <div class="pet-page-inner">
+    <div class="pet-page-image">
+      <img src="/assets/images/portfolio/pet/cradled.jpg" alt="PET robot being cradled in arms" />
+    </div>
+
+    <div class="pet-page-shorts" data-carousel data-carousel-videos data-active-class="pet-page-shorts-slide-active" data-dot-active-class="pet-page-shorts-dot-active">
+      <div class="pet-page-shorts-slide pet-page-shorts-slide-active" data-carousel-slide>
+        <video src="/assets/videos/PET%20-%20prototype%201%20-%202025.mp4" muted loop playsinline preload="auto"></video>
+      </div>
+      <div class="pet-page-shorts-slide" data-carousel-slide>
+        <video src="/assets/videos/PET_ICRA%20-%20prototype%202%20-%202026.mp4" muted loop playsinline preload="metadata"></video>
+      </div>
+      <div class="pet-page-shorts-slide" data-carousel-slide>
+        <video src="/assets/videos/PET_ICSR%20-%202026.mp4" muted loop playsinline preload="metadata" style="object-position: left"></video>
+      </div>
+
+      <button class="pet-page-shorts-prev" data-carousel-prev aria-label="Previous short"></button>
+      <button class="pet-page-shorts-next" data-carousel-next aria-label="Next short"></button>
+
+      <div class="pet-page-shorts-dots">
+        <button class="pet-page-shorts-dot pet-page-shorts-dot-active" data-carousel-dot aria-label="Show short 1"></button>
+        <button class="pet-page-shorts-dot" data-carousel-dot aria-label="Show short 2"></button>
+        <button class="pet-page-shorts-dot" data-carousel-dot aria-label="Show short 3"></button>
+      </div>
+    </div>
+
+    <h1 class="pet-page-title">PET</h1>
+
+    <div class="pet-page-intro-block">
+      <p class="pet-page-intro">
+        PET is a speculative robot that is part sculpture, part companion.
+        PET responds to touch: your grip, your strokes, the way you roll it
+        in your arms. It develops a feeling for you, and expresses it
+        through movement: exploring, writhing, cuddling, recoiling. PET was
+        awarded
+        <a href="https://icsr2026.uk/awards/" target="_blank" rel="noopener noreferrer"><u>Best Art and Design</u></a>
+        at ICSR 2026.
+      </p>
+    </div>
+
+    <div class="pet-page-content">
+      <p class="pet-page-intro">
+        PET&rsquo;s body is optimized for being lifted, cradled, and repositioned
+        in human arms. With smooth surfaces, each module is endowed with
+        varied sensors, and joined by compliant, proprioceptive motors. Like
+        pixels, PET&rsquo;s modularity increases the resolution of sensing and
+        movement.
+      </p>
+
+      <div class="pet-page-conference-wrap">
+        <div class="pet-page-conference" data-carousel data-active-class="pet-page-conference-slide-active" data-dot-active-class="pet-page-conference-dot-active">
+          
+          <div class="pet-page-conference-slide pet-page-conference-slide-active" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-1.jpg" alt="PET at a robotics conference 1" />
+          </div>
+          
+          <div class="pet-page-conference-slide" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-2.jpg" alt="PET at a robotics conference 2" />
+          </div>
+          
+          <div class="pet-page-conference-slide" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-3.jpg" alt="PET at a robotics conference 3" />
+          </div>
+          
+          <div class="pet-page-conference-slide" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-4.jpg" alt="PET at a robotics conference 4" />
+          </div>
+          
+          <div class="pet-page-conference-slide" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-5.jpg" alt="PET at a robotics conference 5" />
+          </div>
+          
+          <div class="pet-page-conference-slide" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-6.jpg" alt="PET at a robotics conference 6" />
+          </div>
+          
+          <div class="pet-page-conference-slide" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-7.jpg" alt="PET at a robotics conference 7" />
+          </div>
+          
+          <div class="pet-page-conference-slide" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-8.jpg" alt="PET at a robotics conference 8" />
+          </div>
+          
+          <div class="pet-page-conference-slide" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-9.jpg" alt="PET at a robotics conference 9" />
+          </div>
+          
+          <div class="pet-page-conference-slide" data-carousel-slide>
+            <img src="/assets/images/portfolio/pet/conference-pics/icra-10.jpg" alt="PET at a robotics conference 10" />
+          </div>
+          
+
+          <button class="pet-page-conference-prev" data-carousel-prev aria-label="Previous photo"></button>
+          <button class="pet-page-conference-next" data-carousel-next aria-label="Next photo"></button>
+
+          <div class="pet-page-conference-dots">
+            
+            <button class="pet-page-conference-dot pet-page-conference-dot-active" data-carousel-dot aria-label="Show photo 1"></button>
+            
+            <button class="pet-page-conference-dot" data-carousel-dot aria-label="Show photo 2"></button>
+            
+            <button class="pet-page-conference-dot" data-carousel-dot aria-label="Show photo 3"></button>
+            
+            <button class="pet-page-conference-dot" data-carousel-dot aria-label="Show photo 4"></button>
+            
+            <button class="pet-page-conference-dot" data-carousel-dot aria-label="Show photo 5"></button>
+            
+            <button class="pet-page-conference-dot" data-carousel-dot aria-label="Show photo 6"></button>
+            
+            <button class="pet-page-conference-dot" data-carousel-dot aria-label="Show photo 7"></button>
+            
+            <button class="pet-page-conference-dot" data-carousel-dot aria-label="Show photo 8"></button>
+            
+            <button class="pet-page-conference-dot" data-carousel-dot aria-label="Show photo 9"></button>
+            
+            <button class="pet-page-conference-dot" data-carousel-dot aria-label="Show photo 10"></button>
+            
+          </div>
+        </div>
+        <p class="pet-page-conference-caption">PET at ICRA</p>
+      </div>
+
+      <p class="pet-page-intro">
+        PET's movement emerges from ongoing interaction. Sensor signals are
+        processed in real time, categorized into gestures, encoded into
+        valenced language (e.g. stroke vs. poke), processed by an LLM that
+        enacts movements reflecting how it feels about the way it is being
+        touched. The result is an embodied agent whose expressiveness
+        emerges from how it feels rather than anthropomorphic imitation.
+      </p>
+
+      <div class="pet-page-concept pet-page-viz">
+        <img src="/assets/images/portfolio/pet/pet_viz.png" alt="PET sensor and motor telemetry visualization" />
+        <p class="pet-page-concept-caption">Real-time sensor and motor telemetry</p>
+      </div>
+
+      <p class="pet-page-intro">
+        PET is in active development. Multiple versions are in the works: a
+        collectible, a human-sized version for performance, and one that is
+        room-scale for installation. If you are interested in collaborating,
+        please <a href="/#contact"><u>reach out</u></a>.
+      </p>
+
+      <div class="pet-page-concept">
+        <img src="/assets/images/portfolio/pet/concept-medium.jpg" alt="PET installation concept" />
+        <p class="pet-page-concept-caption">Installation concept</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer center-content-mobile">
+  <div class="container">
+    <div class="site-footer-inner">
+      <div class="footer-top footer-top-centered text-xxs">
+        <div class="footer-social">
+  <ul class="list-reset">
+    <li>
+      <a href="mailto:info@devicist.com" rel="noopener noreferrer">
+        <img src="/assets/images/emailIcon.png" alt="email icon" width="24px" />
+      </a>
+    </li>
+    <li>
+      <a href="https://hackaday.io/nsted" target="_blank" rel="noopener noreferrer">
+        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img">
+          <title>Hackaday</title>
+          <path d="M0 4.124c0-.204.021-.401.06-.595l1.956 1.734 2.144-2.38L2.246 1.18c.259-.072.53-.114.812-.114a3.062 3.062 0 0 1 3.058 3.037v.021c0 .152-.012.304-.033.45l2.385 2.112a6.716 6.716 0 0 0-2.013 2.54L3.982 7.037a3.038 3.038 0 0 1-.924.145A3.06 3.06 0 0 1 0 4.124zm20.942 12.694c-.306 0-.601.045-.88.129l-2.308-2.044a6.862 6.862 0 0 1-1.819 2.706l1.993 1.765a3.05 3.05 0 0 0-.044.502 3.06 3.06 0 0 0 3.935 2.929l-1.992-1.77 2.14-2.365 1.981 1.76c.034-.181.052-.364.052-.554v-.026a3.057 3.057 0 0 0-3.058-3.032zm-3.397-7.592l2.473-2.189c.292.093.601.145.924.145A3.06 3.06 0 0 0 23.94 3.53l-1.956 1.734-2.144-2.38 1.914-1.703a3.049 3.049 0 0 0-.812-.114 3.062 3.062 0 0 0-3.058 3.037v.021c0 .152.012.304.033.45l-2.385 2.112a6.716 6.716 0 0 1 2.013 2.54zm-11.3 5.677l-2.307 2.044A3.057 3.057 0 0 0 0 19.85v.026c0 .19.018.373.052.554l1.982-1.76 2.14 2.365-1.993 1.77a3.06 3.06 0 0 0 3.935-2.929 3.05 3.05 0 0 0-.044-.502l1.993-1.765a6.862 6.862 0 0 1-1.82-2.706zm8.971 2.657a1.076 1.076 0 1 1-1.961.424h-.192a1.076 1.076 0 1 1-2.127 0h-.15A1.105 1.105 0 0 1 9.7 19.23c-.604 0-1.094-.5-1.094-1.115 0-.21.057-.405.156-.572-1.493-1.142-2.474-3.051-2.474-5.213 0-3.497 2.559-6.332 5.713-6.332s5.713 2.835 5.713 6.332c0 2.173-.991 4.091-2.497 5.231zm-4.194-5.914a1.995 1.995 0 0 0-.559-.66 1.804 1.804 0 0 0-.918-.264 1.45 1.45 0 0 0-.319.036c-.405.05-.747.327-.983.647-.207.257-.368.569-.372.905-.032.278.024.556.075.828.066.322.293.584.55.774.119.095.29.226.44.116.1-.134.016-.33.107-.478a.5.5 0 0 1 .258-.326c.263-.132.527-.262.808-.355.228-.067.416-.219.61-.349.255-.197.424-.558.303-.874zm.996 2.325c-.279-.007-.63 1.237-.574 1.78.175.72.237-.505.574-.506.323.014.275 1.255.53.504.078-.5-.224-1.77-.53-1.778zm4.036-.833c.051-.272.107-.55.075-.828-.004-.336-.165-.648-.372-.905-.236-.32-.578-.596-.983-.647a1.45 1.45 0 0 0-.319-.036c-.32-.001-.644.1-.918.264-.235.171-.42.406-.559.66-.121.316.048.677.303.874.194.13.382.282.61.35.28.092.545.222.808.354a.5.5 0 0 1 .258.326c.091.147.007.344.106.478.151.11.322-.021.44-.116.258-.19.485-.452.551-.774z" />
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/nickstedman/" target="_blank" rel="noopener noreferrer">
+        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img">
+          <title>LinkedIn</title>
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM7.114 20.452H3.558V9h3.556v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/user/nickstedman" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="-35.20005 -41.33325 305.0671 247.9995">
+          <title>Youtube</title>
+          <path d="M229.763 25.817c-2.699-10.162-10.65-18.165-20.748-20.881C190.716 0 117.333 0 117.333 0S43.951 0 25.651 4.936C15.553 7.652 7.6 15.655 4.903 25.817 0 44.236 0 82.667 0 82.667s0 38.429 4.903 56.85C7.6 149.68 15.553 157.681 25.65 160.4c18.3 4.934 91.682 4.934 91.682 4.934s73.383 0 91.682-4.934c10.098-2.718 18.049-10.72 20.748-20.882 4.904-18.421 4.904-56.85 4.904-56.85s0-38.431-4.904-56.85" fill="fff" />
+          <path d="M93.333 117.559l61.333-34.89-61.333-34.894z" fill="#000" />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script defer src="/js/nav.js"></script>
+
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1960e060b6a123cf33b617dd7/f2d11f02d0be2c5747f0ab3a8.js");</script>
+    <script defer src="/js/scroll-reveal.js"></script>
+    <script defer src="/js/smooth-scroll.js"></script>
+    <script defer src="/js/carousels.js"></script>
+
+  </body>
+</html>
