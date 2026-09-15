@@ -10972,7 +10972,7 @@ textarea.form-input {
   overflow-x: hidden;
   overflow-y: auto;
   display: flex;
-  align-items: center;
+  align-items: safe center;
   justify-content: center;
   padding: 1.2rem 0;
 }
@@ -12045,8 +12045,6 @@ body.lightbox-is-active {
   .modal-close-icon {
     background-color: black;
     border-radius: 10px;
-    position: fixed;
-    right: 15px;
   }
 }
 
