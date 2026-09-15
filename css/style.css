@@ -10905,8 +10905,9 @@ textarea.form-input {
 }
 @media (max-width: 639px) {
   .gridWrapper {
-    display: none;
-    width: 0;
+    width: 100%;
+    float: none;
+    margin-top: 16px;
   }
   .projectVideo {
     width: 100%;
@@ -10970,22 +10971,13 @@ textarea.form-input {
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1.2rem 0;
 }
 
-.project-modal-container::after {
-  width: 0;
-  height: 100%;
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .project-modal-inner {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
   position: relative;
   animation: project-modal-scale-in 0.8s ease-in-out both;
 }
@@ -11029,9 +11021,19 @@ body.modal-is-active {
   flex-wrap: wrap;
 }
 
+.gallery.gallery--grid {
+  display: grid;
+  grid-template-columns: repeat(var(--gallery-columns, 2), 1fr);
+  gap: 4px;
+}
+
 .gallery-item {
   display: block;
   overflow: hidden;
+}
+
+.gallery--grid .gallery-item {
+  aspect-ratio: 1/1;
 }
 
 .gallery-item img {
